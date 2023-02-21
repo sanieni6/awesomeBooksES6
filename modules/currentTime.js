@@ -3,7 +3,7 @@ import { DateTime } from './luxon.js';
 
 export const displayTime = document.querySelector('.current-time');
 
-export function time() {
+export const time = () => {
   const dt = DateTime.local();
   return displayTime.textContent = dt.toFormat('MMMM d, yyyy - hh:mm:ss a');
-}
+};
