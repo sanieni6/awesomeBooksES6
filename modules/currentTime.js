@@ -1,5 +1,5 @@
 /* eslint-disable no-return-assign */
-import DateTime from '../node_modules/luxon/src/datetime.js';
+import { DateTime } from './luxon.js';
 
 export const displayTime = document.querySelector('.current-time');
 
