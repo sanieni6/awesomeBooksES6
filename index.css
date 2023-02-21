@@ -1,0 +1,158 @@
+.nolabel {
+  display: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.displayed-books {
+  width: 90%;
+  margin-bottom: 100px;
+}
+
+.each-book {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid 2px;
+  align-items: center;
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  margin-left: 10px;
+}
+
+.book-title,
+.remove {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.remove,
+.button {
+  height: 80%;
+  margin-right: 10px;
+  background-color: #fff;
+  border-bottom: solid 5px;
+  border-right: solid 5px;
+  border-top: solid 3px;
+  border-left: solid 3px;
+}
+
+.main-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.section-divider {
+  margin-top: 20px;
+  border: solid 2px;
+  width: 20%;
+}
+
+.book-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.book-form > input {
+  width: 100%;
+  border: solid 3px;
+}
+
+.button {
+  align-self: flex-end;
+  margin: 0;
+}
+
+.header,
+.footer {
+  width: 97%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 2px;
+}
+
+.header-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-right: 8px;
+}
+
+.border {
+  border-right: solid 2px;
+}
+
+.nav-element {
+  padding-right: 8px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-format {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.display {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.time {
+  width: 97%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.current-time {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
